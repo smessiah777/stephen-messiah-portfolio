@@ -106,11 +106,14 @@ body {
 }
 
 .project-img {
-  width: 400px;
-  height: 400px;
-  background-color: #001242;
-  border: 2px solid orange;
-  margin-right: 30px;
+  width: 500px;
+  height: 500px;
+
+  border: 5px solid #0094c6;
+  margin-right: 20px;
+}
+.project-img:last-child {
+  margin-right: 10px;
 }
 
 .contact-section {
