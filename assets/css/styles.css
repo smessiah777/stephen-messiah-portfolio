@@ -8,10 +8,21 @@
 #F7FFF6 - Mint Cream 
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Exo 2", sans-serif;
   background-color: #f7fff6;
 }
+/* 
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 
 .hero {
   background-image: url(../images/architecture-bridges-buildings-1823680.jpg);
@@ -24,13 +35,14 @@ body {
   font-size: 150px;
   letter-spacing: 10px;
   color: #001242;
-  -webkit-text-stroke: 1.5px #000022;
+  -webkit-text-stroke: 3px #000022;
   text-align: center;
   top: 30%;
   z-index: 5;
 }
 .hero-content-tag {
   font-size: 75px;
+  -webkit-text-stroke: 1px #f7fff6;
   position: relative;
   text-align: center;
   top: 30%;
@@ -68,7 +80,40 @@ body {
   left: 0;
   background-color: rgba(48, 187, 237, 0.383);
 }
+.section-h1 {
+  font-size: 100px;
+  color: #000022;
+  text-align: center;
+}
 
-.projects {
+.projects-section {
+  margin-top: 20px;
+  height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project-img-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.project-img {
+  width: 400px;
+  height: 400px;
+  background-color: #001242;
+  border: 2px solid orange;
+  margin-right: 30px;
+}
+
+.contact-section {
+  margin-top: 30px;
   height: 100vh;
 }
