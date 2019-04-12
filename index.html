@@ -7,54 +7,129 @@
 
     <link rel="stylesheet" href="./assets/css/reset.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <link rel="shortcut icon" href="" type=" " />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/iconmonstr-flash-thin-240.png"
+      type="image/jpg"
+    />
 
     <title>Stephen Messiah Portfolio</title>
   </head>
   <body>
-    <nav></nav>
+    <section id="#" class="section hero">
+      <i class="fas fa-bars menu-icon"></i>
 
-    <section id="#" class="hero">
+      <div class="nav-overlay"></div>
+
       <h1 class="hero-content">Stephen Messiah</h1>
       <h2 class="hero-content-tag">FullStack Web-Developer</h2>
 
       <a href="#projects" class="hero-btn">
-        <h2>See My Work</h2>
+        See My Work
       </a>
 
       <div class="overlay"></div>
     </section>
 
-    <section id="projects" class="projects-section">
+    <section id="projects" class=" section section-content">
+      <div class="section-bg-projects"></div>
+
       <h1 class="section-h1">Projects</h1>
+      <div class="project-img-container">
+        <a
+          href="https://smessiah777.github.io/Run-The-Jewels-game/"
+          target="_blank"
+        >
+          <img
+            src="./assets/images/project_images/rtj-game.png"
+            alt=""
+            class="project-img"
+          />
+        </a>
+        <a
+          href="https://smessiah777.github.io/project-1-Group-5/"
+          target="_blank"
+        >
+          <img
+            src="./assets/images/project_images/FireShot Capture 032 - Hoop Data - smessiah777.github.io.png"
+            alt=""
+            class="project-img"
+          />
+        </a>
+        <a
+          href="https://smessiah777.github.io/pardus-valor-site/"
+          target="_blank"
+        >
+          <img
+            src="./assets/images/project_images/pv-site.png"
+            alt=""
+            class="project-img"
+          />
+        </a>
+      </div>
 
-      <div class="container">
-        <div class="project-img-container">
-
-          <a href="https://smessiah777.github.io/Run-The-Jewels-game/" target="_blank" >
-          <img src="./assets/images/project_images/rtj-game.png" alt="" class="project-img"
-          
-           />
-
-          </a>
-          <a href="https://smessiah777.github.io/project-1-Group-5/"  target="_blank" >
-          <img src="./assets/images/project_images/FireShot Capture 032 - Hoop Data - smessiah777.github.io.png" alt=""  
-          class="project-img"/>
-
-          </a>
-          <a href="https://smessiah777.github.io/pardus-valor-site/"  target="_blank" >
-          <img src="./assets/images/project_images/pv-site.png" alt="" class="project-img"/>
-
-          </a>
-        </div>
-        
+      <!-- <div class="overlay-sections"></div> -->
     </section>
 
-    <!-- <section class="contact-section">
-      <h1 class="section-h1">Contact</h1>
-    </section> -->
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-content">
+      <div class="section-bg-contact"></div>
+      <h1 class="section-h1 section-h1-contact">Contact</h1>
+      <div class="container">
+        <div class="form-wrapper"></div>
+        <form class="form-styles">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
 
     <footer></footer>
   </body>
