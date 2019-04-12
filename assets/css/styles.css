@@ -6,46 +6,80 @@
 #303036 - jet blackish gray
 #FAFAFA - Snow White
 #F7FFF6 - Mint Cream 
+//Pallette 3
+#01172F - Maastricht Blue
+#770f05 - Barn Red
+#FFFAFF - White
 */
 
 html {
   scroll-behavior: smooth;
+  background-color: #f7fff6;
 }
 
 body {
   font-family: "Exo 2", sans-serif;
   background-color: #f7fff6;
 }
-/* 
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+
+.section {
+  height: 100vh;
+}
+
+.section-content {
+  position: relative;
+  background-color: #fffaff;
+  margin-top: 20px;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* hero section */
 
 .hero {
-  background-image: url(../images/architecture-bridges-buildings-1823680.jpg);
+  background-image: url(../images/positive.png);
   background-position: left;
-  height: 100vh;
+}
+
+.menu-icon {
+  position: fixed;
+  color: #770f05;
+  font-size: 70px;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  visibility: hidden;
+}
+
+.menu-icon-visible {
+  visibility: visible;
+}
+
+.menu-icon:hover {
+  color: #01172f;
 }
 .hero-content {
   position: relative;
   font-family: "Permanent Marker", cursive;
   font-size: 150px;
   letter-spacing: 10px;
-  color: #001242;
-  -webkit-text-stroke: 3px #000022;
+  background-color: #f7fff6;
+  color: #01172f;
+  -webkit-text-stroke: 3px #01172f;
   text-align: center;
   top: 30%;
   z-index: 5;
 }
 .hero-content-tag {
+  background-color: #f7fff6;
+  color: #770f05;
   font-size: 75px;
-  -webkit-text-stroke: 1px #f7fff6;
+  -webkit-text-stroke: 3px #01172f;
   position: relative;
   text-align: center;
-  top: 30%;
+  top: 29%;
+  padding-bottom: 40px;
   z-index: 5;
 }
 
@@ -54,22 +88,21 @@ body {
   justify-content: center;
   position: relative;
   font-size: 50px;
-  font-weight: 300;
-  color: black;
-  text-decoration: none;
-  background-color: #f7fff63d;
-  height: 20px;
+  color: #01172f;
+  background-color: #f7fff6;
+  height: 10px;
   width: 500px;
-  padding: 20px 0 50px 0;
+  padding: 10px 0 100px 0;
   margin: 0 auto;
   top: 40%;
-  border: 2px solid black;
+  border: 2px solid #01172f;
   z-index: 5;
 }
 
 .hero-btn:hover {
-  color: #0094c6;
-  background-color: #040f16;
+  color: #770f05;
+  background-color: #01172f;
+  text-decoration: none;
 }
 
 .overlay {
@@ -78,45 +111,92 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(48, 187, 237, 0.383);
+  background-color: #fffaff9b;
+  z-index: 1;
 }
+
+/* projects */
+
+.section-bg-projects {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#344b63, #011e3c);
+  transform: skewY(-45deg);
+  transform-origin: top left;
+}
+
 .section-h1 {
-  font-size: 100px;
-  color: #000022;
-  text-align: center;
+  position: relative;
+  font-size: 75px;
+  color: #770f05;
+  -webkit-text-stroke: 2px #01172f;
+  text-align: left;
+  z-index: 5;
 }
 
-.projects-section {
-  margin-top: 20px;
-  height: 100vh;
-}
-
-.container {
+/* .container {
   max-width: 960px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
+
+/* .wrapper {
+  background-color: #01172f;
+} */
 
 .project-img-container {
+  position: relative;
   display: flex;
   justify-content: center;
   margin: 50px 0 0 0;
+  z-index: 5;
 }
 
 .project-img {
   width: 500px;
   height: 500px;
-
-  border: 5px solid #0094c6;
+  border: 2px solid #01172f;
   margin-right: 20px;
+  z-index: 5;
 }
 .project-img:last-child {
   margin-right: 10px;
 }
 
+/* contact */
+
 .contact-section {
   margin-top: 30px;
   height: 100vh;
+}
+
+.section-h1-contact {
+  top: 80%;
+}
+
+.section-bg-contact {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(#344b63, #011e3c); */
+  background-image: linear-gradient(#011e3c, #344b63);
+  transform: skewY(45deg);
+  transform-origin: top left;
+}
+
+.form-wrapper {
+}
+.form-styles {
+  position: relative;
 }
