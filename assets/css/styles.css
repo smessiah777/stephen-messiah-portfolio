@@ -43,11 +43,15 @@ body {
 }
 
 .section-title{
+  display: flex;
+  flex-direction: row;
+  
+  
   position: absolute;
   content: "";
   width: 6px;
   height: 72px;
-  background-color: #E3872D;
+  background-color: #2C666E;
   /* padding-left: 40px; */
   top: 2px;
   left: 40px;
@@ -61,12 +65,20 @@ body {
     letter-spacing: -.5px;
     padding-left: 25px;
     line-height: 1;
+    
+}
+
+.title-icon{
+  color: #2C666E;
+  font-size: 40px;
+  margin: 5px 0 0 20px;
+
 }
 
 /* Nav */
 .menu-icon {
   position: fixed;
-  color: #E06D06;
+  color: #2C666E;
   font-size: 70px;
   top: 20px;
   left: 20px;
@@ -79,7 +91,7 @@ body {
 }
 
 .menu-icon:hover {
-  color: #01172f;
+  color: white;
 }
 
 /* hero section */
@@ -122,7 +134,7 @@ body {
 
 .last-name{
   font-size: 6rem;
-  color: #E06D06;
+  color: #C75000;
 }
 
 
@@ -137,12 +149,12 @@ body {
 
 .enter-icon{
   font-size: 6rem;
-  color: #E06D06;
+  color: #C75000 ;
   margin-top: 20px;
 }
 
 .enter-icon:hover{
-  color: white;
+  color: #2C666E;
   -webkit-animation-duration: 2.5s;
   animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
