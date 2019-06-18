@@ -86,6 +86,7 @@ body {
 }
 
 .hero-content-wrap{
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   z-index: 2;
 }
