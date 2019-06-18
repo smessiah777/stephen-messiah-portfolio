@@ -96,6 +96,7 @@ body {
 .name{
   font-size: 6rem;
   color: white;
+  border-bottom: 4px solid #2C666E;
 }
 
 .last-name{
