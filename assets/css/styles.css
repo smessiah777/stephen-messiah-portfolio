@@ -27,6 +27,8 @@ body {
   background-color: #f7fff6;
 }
 
+/* Universal Section Styles */
+
 .section {
   height: 100vh;
 }
@@ -40,10 +42,43 @@ body {
   z-index: 1;
 }
 
+.section-title{
+  display: flex;
+  flex-direction: row;
+  
+  
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 72px;
+  background-color: #2C666E;
+  /* padding-left: 40px; */
+  top: 2px;
+  left: 40px;
+}
+
+.title-h3{
+  color: #041230;
+  font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    padding-left: 25px;
+    line-height: 1;
+    
+}
+
+.title-icon{
+  color: #2C666E;
+  font-size: 40px;
+  margin: 5px 0 0 20px;
+
+}
+
 /* Nav */
 .menu-icon {
   position: fixed;
-  color: #770f05;
+  color: #2C666E;
   font-size: 70px;
   top: 20px;
   left: 20px;
@@ -56,7 +91,7 @@ body {
 }
 
 .menu-icon:hover {
-  color: #01172f;
+  color: white;
 }
 
 /* hero section */
@@ -64,7 +99,6 @@ body {
 .hero {
   background-image: url(../images/chicago.jpeg);
   background-position: 100vw;
-  
   height: 100vh;
   overflow-x: hidden;
 }
@@ -79,7 +113,7 @@ body {
   width: 98.9vw;
   top: 0;
   left: 0;
-  background-color: #041230b7;
+  background-color: #04123096;
   overflow-x: hidden; 
 
 
@@ -101,7 +135,7 @@ body {
 
 .last-name{
   font-size: 6rem;
-  color: #E06D06;
+  color: #C75000;
 }
 
 
@@ -116,12 +150,12 @@ body {
 
 .enter-icon{
   font-size: 6rem;
-  color: #E06D06;
+  color: #C75000 ;
   margin-top: 20px;
 }
 
 .enter-icon:hover{
-  color: white;
+  color: #2C666E;
   -webkit-animation-duration: 2.5s;
   animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
@@ -164,55 +198,24 @@ body {
 
 /* projects */
 
-.section-bg-projects {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(#344b63, #011e3c);
-  transform: skewY(-45deg);
-  transform-origin: top left;
-}
 
-.section-h1 {
-  position: relative;
-  font-size: 50px;
-  color: #770f05;
-  -webkit-text-stroke: 2px #01172f;
-  text-align: right;
-  right: 20px;
-  z-index: 5;
-}
 
-/* .container {
-  max-width: 960px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
-
-/* .wrapper {
-  background-color: #01172f;
-} */
 
 .project-img-container {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 50px 0 0 0;
+  margin: 150px 0 0 0;
   z-index: 5;
 }
 
 .project-img {
-  width: 400px;
-  height: 400px;
+  width: 25rem;
+  height: 25rem;
   border: 2px solid #01172f;
-  margin-right: 20px;
+  margin-right: 80px;
   z-index: 5;
+  
 }
 .project-img:last-child {
   margin-right: 10px;
