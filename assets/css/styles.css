@@ -232,28 +232,20 @@ body {
   top: 80%;
 }
 
-.section-bg-contact {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background-image: linear-gradient(#344b63, #011e3c); */
-  background-image: linear-gradient(#011e3c, #344b63);
-  transform: skewY(45deg);
-  transform-origin: top left;
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .form-styles {
   position: relative;
-  background-color: #770f05;
+  background-color: #041230;
   padding: 50px 20px 0 20px;
   width: 460px;
   height: 600px;
-  margin: 0 auto;
-  border: 4px solid #01172f;
+  margin: 100px auto 0 auto;
+  border: 4px solid #2C666E;
 }
 
 .label-style {
@@ -262,14 +254,14 @@ body {
 }
 
 .submit-btn {
-  background-color: #01172f;
-  border: 2px solid #01172f;
+  background-color: #C75000;
+  border: 2px solid #C75000;
   font-size: 20px;
   margin: 150px 0 0 0;
 }
 
 .submit-btn:hover {
   background-color: #f7fff6;
-  color: #770f05;
+  color: #2C666E;
   border: 2px solid #f7fff6;
 }
