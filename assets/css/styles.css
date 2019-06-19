@@ -130,12 +130,14 @@ body {
 .name{
   font-size: 6rem;
   color: white;
+  border-bottom: 2px solid #2C666E; 
   
 }
 
 .last-name{
   font-size: 6rem;
   color: #C75000;
+  
 }
 
 
@@ -144,6 +146,9 @@ body {
 .sub-title{
   font-size: 3rem;
   color: white;
+  /* width: 400px;
+  margin: 0 auto;
+  border-bottom: 4px solid #2C666E; */
   
 }
 
