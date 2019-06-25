@@ -277,15 +277,20 @@ body {
 }
 
 .about-img{
-  width: 400px;
+  width: 425px;
   height: 640px;
 }
 
 .about-text-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 50px 0 0 0;
   margin: 0 0 0 40px;
 }
 
 .about-text{
+  padding: 
   word-wrap: break-word;
 }
 .resume-btn{
