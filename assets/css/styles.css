@@ -261,10 +261,57 @@ body {
   }
 }
 
-/* projects */
+/* --------About--------- */
+.about-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 0 0 0;
+  
+}
 
+.about-img-wrapper{
+  height: auto;
+  width: auto;
+  margin: 0 0 0 40px;
+}
 
+.about-img{
+  width: 400px;
+  height: 640px;
+}
 
+.about-text-wrapper{
+  margin: 0 0 0 40px;
+}
+
+.about-text{
+  word-wrap: break-word;
+}
+.resume-btn{
+  text-transform: capitalize;
+  background-color: #C75000;
+  border: 2px solid #C75000;
+  font-size: 20px;
+  margin: 0 auto 0 auto;
+}
+
+.resume-btn:hover{
+  color: #C75000;
+  background-color: white;
+  border: 2px solid white;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.file-icon{
+  color: white;
+  font-size: 20px;
+  margin: 0 0 0 5px;
+}
+
+/* ---------projects--------- */
 
 .project-img-container {
   position: relative;
