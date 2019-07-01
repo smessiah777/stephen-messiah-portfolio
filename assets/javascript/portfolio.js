@@ -6,6 +6,8 @@ window.onload = () => {
     
     document.getElementById("close").addEventListener("click", close);
     
+    document.getElementById("about-link").addEventListener("click", close);
+    
     document.getElementById("projects-link").addEventListener("click", close);
     
     document.getElementById("contact-link").addEventListener("click", close);
