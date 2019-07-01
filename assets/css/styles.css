@@ -579,7 +579,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
       color: #C75000;
       font-size: 2rem;
       top: 5px;
-      right: 5px;
+      right: 10px;
       float: left;
       z-index: 2;
       visibility: hidden;
@@ -1318,7 +1318,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
       color: #C75000;
       font-size: 2rem;
       top: 5px;
-      right: 5px;
+      right: 10px;
       float: left;
       z-index: 2;
       visibility: hidden;
@@ -3712,6 +3712,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   .project-img-container {
     position: relative;
     display: flex;
+    align-content: center;
     justify-content: center;
     flex-direction: row;
    
@@ -3729,7 +3730,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     
   }
   .project-img:last-child {
-    margin-right: 10px;
+    margin-right: 20px;
   }
   
   
