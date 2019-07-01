@@ -902,8 +902,6 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   .section-title{
     display: flex;
     flex-direction: row;
-    
-    
     position: absolute;
     content: "";
     width: 6px;
@@ -1119,7 +1117,17 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   }
   
   /* --------About--------- */
+  .section-about{
+    position: relative;
+    background-color: #fffaff;
+    margin-top: 20px;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+  }
+
   .about-wrapper{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
