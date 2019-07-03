@@ -178,7 +178,8 @@
       <div class="container">
 
         <div class="form-wrapper">
-            <form class="form-styles">
+            <form id="contact-form" class="form-styles" method="post"
+            action="contact-form-handler.php">
                 <div class="form-group">
                   <label class="label-style" for="name-input">Name</label>
                   <input
@@ -201,7 +202,7 @@
                 </div>
                 <div class="form-group">
                   <label class="label-style" for="message-input">Message</label>
-                  <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                  <textarea class="form-control" name="message" id="contact-message" rows="3"></textarea>
                 </div>
                  
                 <button type="submit" class="btn btn-primary submit-btn">Submit</button>
