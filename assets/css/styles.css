@@ -113,7 +113,12 @@ body {
   color: white;
 }
 
+.nav-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+}
 
 .nav-list{
   display: flex;
@@ -134,6 +139,24 @@ body {
   text-decoration: underline;
   text-decoration-color: #2C666E;
   transform: 1s; 
+}
+
+.nav-icons-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.nav-icon{
+  color: #2C666E;
+  font-size: 6rem;
+  margin-right: 10px;
+}
+
+.nav-icon:hover{
+  color: #f7fff6;
 }
 .menu-icon {
   position: fixed;
