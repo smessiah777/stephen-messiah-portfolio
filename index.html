@@ -22,12 +22,12 @@
     />
 
 
-    <link rel="stylesheet" href="./assets/css/animate.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
-
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    
+    
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css">
 
     <link
       rel="shortcut icon"
@@ -70,11 +70,11 @@
       
       <div class="nav-overlay"></div>
       <div class="hero-overlay">
-        <div class="hero-content-wrap"><h1 class="name">Stephen <span class="last-name">Messiah</span> </h1>
-          <h2 class="sub-title"> Web-Developer</h2>
+        <div class="hero-content-wrap "><h1 class="name animated fadeInDown slow">Stephen <span class="last-name animated fadeInDown slow">Messiah</span> </h1>
+          <h2 class="sub-title animated fadeInUp slower"> Web-Developer</h2>
         </div>
         
-          <a href="#about" id="enter" class="enter-icon"><i class="fas fa-caret-down"></i></a> 
+          <a href="#about" id="enter" class="enter-icon"><i class="fas fa-caret-down animated fadeInDown slow"></i></a> 
         
           
       </div>
@@ -89,7 +89,7 @@
      
     </section>
 
-<section id="about" class="section section-content">
+<section id="about" class="section  section-about">
     <div class="section-title">
         <h3 class="title-h3">About</h3>
         <i class="fas fa-address-card title-icon"></i>
@@ -101,6 +101,8 @@
 
     <div class="about-text-wrapper">
       <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam id, ab voluptatum optio illum explicabo. Voluptatibus illo nostrum dolor quia. Ad, inventore possimus. Repudiandae veniam nobis ex possimus velit.</p>
+      <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam id, ab voluptatum optio illum explicabo. Voluptatibus illo nostrum dolor quia. Ad, inventore possimus. Repudiandae veniam nobis ex possimus velit.</p>
+      
       
       <div class="btn btn-primary resume-btn">Download Resume<i class="fas fa-file file-icon"></i></div>
     </div>
@@ -108,14 +110,15 @@
 
 </section>    
 
-    <section id="projects" class=" section section-content">
+    <section id="projects" class="section section-content">
       
 
       <div class="section-title">
         <h3 class="title-h3">Projects</h3>
         <i class="fas fa-pencil-ruler title-icon"></i>
       </div>
-      <div class="project-img-container">
+
+<div class="project-img-container">
        
 <div class="img-container">
   <img
@@ -169,12 +172,14 @@
 
 </div>
 </div>
+
+</div>
        
        
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="section section-content">
+    <section id="contact" class="section section-content contact-section">
      
       <div class="section-title">
         <h3 class="title-h3">Contact</h3>
@@ -183,7 +188,8 @@
       <div class="container">
 
         <div class="form-wrapper">
-            <form class="form-styles">
+            <form id="contact-form" class="form-styles" method="post"
+            action="contact-form-handler.php">
                 <div class="form-group">
                   <label class="label-style" for="name-input">Name</label>
                   <input
@@ -206,7 +212,7 @@
                 </div>
                 <div class="form-group">
                   <label class="label-style" for="message-input">Message</label>
-                  <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                  <textarea class="form-control" name="message" id="contact-message" rows="3"></textarea>
                 </div>
                  
                 <button type="submit" class="btn btn-primary submit-btn">Submit</button>
