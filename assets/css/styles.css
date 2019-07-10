@@ -426,6 +426,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   text-align: center;
 }
 
+.img-icon-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
 .expand-icon{
   color: white;
   font-size: 60px;
