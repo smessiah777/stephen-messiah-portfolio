@@ -163,7 +163,7 @@ body {
   color: #C75000;
   font-size: 2rem;
   top: 5px;
-  right: 5px;
+  right: 10px;
   float: left;
   z-index: 2;
   visibility: hidden;
@@ -446,6 +446,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   text-align: center;
 }
 
+.img-icon-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
 .expand-icon{
   color: white;
   font-size: 60px;
@@ -457,7 +464,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   color: #2C666E;
 }
 
-/* contact */
+/* ---------contact-------- */
 
 .contact-section {
   margin-top: 100px;
@@ -472,12 +479,15 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   display:flex;
   flex-direction: column;
   justify-content: center;
+  margin:  0 auto;
 
 }
 
 .contact-icon{
   color: #C75000;
   font-size: 10rem;
+  margin: 0 auto;
+  padding-top: 50px;
   
 }
 
