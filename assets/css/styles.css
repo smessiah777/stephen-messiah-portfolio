@@ -19,12 +19,12 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #f7fff6;
+  background-color: #fffaff;
 }
 
 body {
   font-family: "Exo 2", sans-serif;
-  background-color: #f7fff6;
+  background-color: #fffaff;
 }
 
 /* Universal Section Styles */
