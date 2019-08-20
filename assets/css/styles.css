@@ -373,12 +373,16 @@ box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
 
 /* ---------projects--------- */
 
+#projects{
+ overflow: auto;
+}
+
 .project-img-container {
   position: relative;
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: right;
+  justify-content: center;
   flex-direction: column;
  
   margin: 100px 0 0 0;
@@ -3483,7 +3487,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     position: relative;
     background-color: #fffaff;
     margin-top: 20px;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
     z-index: 1;
   }
@@ -3786,6 +3790,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   }
   
   /* ---------projects--------- */
+
+  /* #projects{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-direction: row;
+  } */
   
   .project-img-container {
     position: relative;
